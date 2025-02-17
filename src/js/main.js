@@ -14,7 +14,10 @@
 
 import { initCountdown } from './modules/timer-countdown';
 import { addDate } from './modules/addDate';
+import { toTop } from './modules/toTop';
 
 // initCountdown('.countdown', 86440, 'The timer is over');
 
 // addDate();
+
+// toTop();
