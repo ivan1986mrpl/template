@@ -4,7 +4,6 @@
 // import { BaseHelpers } from './helpers/base-helpers';
 
 /**
- * !(i)
  * Код попадает в итоговый файл, только когда вызвана функция, например FLSFunctions.spollers();
  * Или когда импортирован весь файл, например import "files/script.js";
  * Неиспользуемый код в итоговый файл не попадает.
@@ -15,9 +14,12 @@
 import { initCountdown } from './modules/timer-countdown';
 import { addDate } from './modules/addDate';
 import { toTop } from './modules/toTop';
+import { tabs } from './modules/tabs';
 
 // initCountdown('.countdown', 86440, 'The timer is over');
 
 // addDate();
 
 // toTop();
+
+// tabs();

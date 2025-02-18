@@ -1,3 +1,6 @@
+@use "sass:math" as math;
+@use "vars" as global;
+@use "functions" as *;
 // Шаблоны (заготовки)
 // @extend %имя шаблона;
 

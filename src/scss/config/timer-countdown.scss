@@ -1,3 +1,7 @@
+@use "sass:math" as math;
+@use "vars" as global;
+@use "functions" as *;
+
 .timer {
     margin: 0 auto;
     width: 315px;

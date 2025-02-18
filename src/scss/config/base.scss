@@ -2,6 +2,9 @@
 @use "mixins" as *;
 @use "vars" as global;
 
+@use 'toTop';
+@use 'timer-countdown';
+@use 'tabs';
 /*
 * (i) Стили будут применяться ко
 * всем классам содержащим *__container
@@ -42,7 +45,6 @@
 	overflow: hidden;
 	flex-direction: column;
 }
-
 .page {
 	flex: 1 1 auto;
 }

@@ -1,6 +1,10 @@
 // Подключение шрифтов локально из папки "./src/fonts"
 @use "config/fonts";
 
+// Підключення шрифтів &display=swap ====================================================================================================
+// @import url('https://fonts.googleapis.com/css?family=Roboto:500,700&display=swap');
+// @use 'config/icons.scss';
+
 // Подключение переменных
 @use "config/root";
 
@@ -11,9 +15,6 @@
 // @use 'libs/aos';
 // @use 'libs/swiper';
 
-// Подключение custom scrollbar для всего сайта
-@use "config/scrollbar";
-
 // Общие параметры, шаблоны(заготовки) и вспомогательные классы
 @use "config/base";
 
@@ -23,4 +24,3 @@
 // Подключение стилей отдельных блоков и секций
 @use "components/header";
 @use "components/footer";
-@use "components/timer-countdown";

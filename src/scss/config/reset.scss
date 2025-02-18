@@ -30,7 +30,7 @@ aside {
 html {
 	//opacity: 0;
 	scroll-behavior: smooth;
-	transition: opacity 0.8s ease-in-out;
+	//transition: opacity 0.8s ease-in-out;
 
 	&.loaded {
 		//opacity: 1;
@@ -63,8 +63,8 @@ body {
 	text-rendering: optimizeLegibility;
 	text-size-adjust: 100%;
 	font-family: var(--bs-font-family), sans-serif;
-	font-size: 16px;
-	font-weight: 400;
+	font-size: var(--bs-font-size);
+	font-weight: var(--bs-font-weight);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }

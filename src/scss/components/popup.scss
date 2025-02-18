@@ -1,3 +1,5 @@
-@use "../config/mixins" as *;
+@use "sass:math" as math;
 @use "../config/functions" as *;
+@use "../config/mixins" as *;
+@use "../config/vars" as global;
 
