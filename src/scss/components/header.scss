@@ -3,8 +3,8 @@
 @use "../config/mixins" as *;
 @use "../config/vars" as global;
 
-@use 'config/burger-menu'; //В script.js раскоментировать подключение menuBurger
-@use 'config/header-fon'; //В script.js раскоментировать подключение headerFon
+@use 'config/burger-menu';
+@use 'config/header-fon';
 
 .header {
    position: fixed;
@@ -18,9 +18,9 @@
 	   align-items: center;
 	   justify-content: space-between;
 	   column-gap: rem(15);
-	   @include adaptive-clamp("min-height", 110, 60);//должно совпадать с высотой header
 	   padding-top: rem(5);
 	   padding-bottom: rem(5);
+	   @include adaptive-clamp("min-height", 110, 60);//должно совпадать с высотой header
    }
    &__actions {
 	   display: flex;

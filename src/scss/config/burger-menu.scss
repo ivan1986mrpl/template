@@ -6,8 +6,6 @@
 $menuColor: var(--main-color);//text
 $menuBackground: var(--second-color);//background
 $iconMenuColor: var(--main-color);//burger button
-//--header-HeigthBig: 110; --header-HeigthSmall: 60; //указать в файле style.scss для высоты подложки безопасности, чтобы пункты меню не налазили на логотип, а появлялась прокрутка
-
 .header {
 	&__logo {
 		position: relative;//burger
@@ -33,7 +31,7 @@ $iconMenuColor: var(--main-color);//burger button
 				content:'';
 				position: fixed;
 				width: 100%;
-				@include adaptive-clamp("height", 110, 60);//должно совпадать с высотой header
+				@include adaptive-clamp("height", 110, 60);//должно совпадать с высотой header. для высоты подложки безопасности, чтобы пункты меню не налазили на логотип, а появлялась прокрутка
 				top: 0;
 				left: -100%;
 				z-index: 2;

@@ -1,0 +1,57 @@
+@use "sass:math" as math;
+@use "vars" as global;
+@use "functions" as *;
+@use "mixins" as *;
+
+.spollers__title {
+    width: 100%;
+    padding: rem(10);
+    text-align-last: left;
+    font-size: rem(18);
+    position: relative;
+    background-color: transparent;
+}
+.init .spollers__title{
+    cursor: pointer;
+}
+.init .spollers__title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.init .spollers__title:after {
+    content: '';
+    background: url("../images/icons-root/spoller.svg") center center no-repeat;
+    width: 20px;
+    height: 20px;
+    transition: transform .5s;
+}
+.init .spollers__title.active:after {
+    transform: rotate(-180deg);
+}
+// указать свои стили
+body{
+	padding-top: rem(150);
+}
+.spollers {
+	margin: rem(0) rem(0) rem(30) rem(0);
+    font-size: rem(16);
+    &__item {
+		margin: rem(0) rem(0) rem(10) rem(0);
+    }
+    &__text {
+		padding: rem(0) rem(10) rem(10);
+        line-height: 1.3;
+    }
+}
+.block-1 .spollers__item {
+    background-color: gray;
+}
+.block-2 .spollers__item {
+    background-color: yellow;
+}
+.block-3 .spollers__item {
+    background-color: orange;
+}
+
