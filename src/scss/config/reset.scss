@@ -65,6 +65,7 @@ body {
 	font-family: var(--bs-font-family), sans-serif;
 	font-size: var(--bs-font-size);
 	font-weight: var(--bs-font-weight);
+	color: var(--main-color);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
@@ -101,7 +102,9 @@ button {
 }
 
 a {
-	user-select: none;
+	//user-select: none;
+	display: inline-block;
+	color: inherit;
 	text-decoration: none;
 
 	&:hover {

@@ -15,6 +15,9 @@ import { initCountdown } from './modules/timer-countdown';
 import { addDate } from './modules/addDate';
 import { toTop } from './modules/toTop';
 import { tabs } from './modules/tabs';
+import { headerFon } from './modules/header-fon';
+import { menuBurger } from './modules/menu-burger';
+import { pageNavigation } from './modules/page-navigation';
 
 // initCountdown('.countdown', 86440, 'The timer is over');
 
@@ -23,3 +26,9 @@ import { tabs } from './modules/tabs';
 // toTop();
 
 // tabs();
+
+ headerFon();
+
+ menuBurger();
+
+// pageNavigation();
