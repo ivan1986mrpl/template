@@ -6,6 +6,7 @@
 // @use 'timer-countdown';
 // @use 'tabs';
 // @use 'spollers';
+ @use 'popup';
 
 /*
 * (i) Стили будут применяться ко
@@ -37,7 +38,10 @@
 		}
 	}
 }
-
+body.lock {
+	//touch-action: none;
+	overflow: hidden;
+}
 // Оболочка
 .wrapper {
 	display: flex;

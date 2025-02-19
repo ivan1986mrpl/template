@@ -37,15 +37,15 @@ html {
 	}
 
 	&.lock {
-		touch-action: none;
-		overflow: hidden;
+		//touch-action: none;
+		//overflow: hidden;
 
 		[data-lp] {
-			padding-inline-end: var(--bh-scrollbar-width, #{rem(16)});
+			//padding-inline-end: var(--bh-scrollbar-width, #{rem(16)});//for function calcScrollbarWidth()
 		}
 
 		.wrapper {
-			margin-inline-end: var(--bh-scrollbar-width, #{rem(16)});
+			//margin-inline-end: var(--bh-scrollbar-width, #{rem(16)});//for function calcScrollbarWidth()
 		}
 	}
 }
